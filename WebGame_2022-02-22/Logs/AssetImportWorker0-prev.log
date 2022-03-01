@@ -1,0 +1,510 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'zh' Physical Memory: 16217 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/WebGame/WebGame_2022-02-22/WebGame_2022-02-22
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+14700
+Successfully changed project path to: C:/WebGame/WebGame_2022-02-22/WebGame_2022-02-22
+C:/WebGame/WebGame_2022-02-22/WebGame_2022-02-22
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/WebGame/WebGame_2022-02-22/WebGame_2022-02-22/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Vendor:   
+    VRAM:     3955 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004206 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.530 seconds
+Domain Reload Profiling:
+	ReloadAssembly (530ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (395ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (128ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (146ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006191 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Domain Reload Profiling:
+	ReloadAssembly (995ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (793ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2627.
+Total: 2.535800 ms (FindLiveObjects: 0.184400 ms CreateObjectMapping: 0.059900 ms MarkObjects: 2.242800 ms  DeleteObjects: 0.047700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Zeldisaac/HUD.png
+  artifactKey: Guid(7acd2e2b896b60d42af90c70e7a5fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/HUD.png using Guid(7acd2e2b896b60d42af90c70e7a5fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc44eb2bfe25b5853e12bc42fe96987') in 0.075949 seconds 
+  Import took 0.078518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Zeldisaac/Jar_SpriteSheet.png
+  artifactKey: Guid(53cbe1f200c1abd48891a10177ff3a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Jar_SpriteSheet.png using Guid(53cbe1f200c1abd48891a10177ff3a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409cde8d29d9165881d13bb801f97dcf') in 0.008104 seconds 
+  Import took 0.010601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Zeldisaac/HUD_Mask.png
+  artifactKey: Guid(4a76fee9c642338459f4d49a29f20432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/HUD_Mask.png using Guid(4a76fee9c642338459f4d49a29f20432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc014ef0a58bf6283292d7ab9d7f3de') in 0.006609 seconds 
+  Import took 0.009168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Zeldisaac/InventoryItemSpriteSheet.png
+  artifactKey: Guid(c316b2d6c4e95e44faec1069bb0cafe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/InventoryItemSpriteSheet.png using Guid(c316b2d6c4e95e44faec1069bb0cafe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e2fd15e70f3f0a49605b0ea437d40b') in 0.008233 seconds 
+  Import took 0.010764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Zeldisaac/DoorGrid.png
+  artifactKey: Guid(6c3be450aa1c335459c8a3180232f4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/DoorGrid.png using Guid(6c3be450aa1c335459c8a3180232f4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910053b9df8adb9cc8aee2e2c253e07c') in 0.010303 seconds 
+  Import took 0.013280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Zeldisaac/Door.png
+  artifactKey: Guid(50e492b5d29bdd8439ae53f9b7eb7484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Door.png using Guid(50e492b5d29bdd8439ae53f9b7eb7484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fa1fa423c4ee6711b9c585f7ada2bd') in 0.015859 seconds 
+  Import took 0.018681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Zeldisaac/Character.gif
+  artifactKey: Guid(b5cd8b1ca1a5e844c80a7302a3d0bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Character.gif using Guid(b5cd8b1ca1a5e844c80a7302a3d0bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b8c643e3e69d85d12dfbeae116370d') in 0.013343 seconds 
+  Import took 0.015725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Zeldisaac/PetitePiece_SpriteSheet.png
+  artifactKey: Guid(98295261cc169594d8d8c7551f4f6d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/PetitePiece_SpriteSheet.png using Guid(98295261cc169594d8d8c7551f4f6d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814ad1ea0933c7e5ba34ded1cf8401dd') in 0.007456 seconds 
+  Import took 0.010048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Zeldisaac/BabaMediumPixels.ttf
+  artifactKey: Guid(ba5b68f1e1755c04788ed38007c0b203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/BabaMediumPixels.ttf using Guid(ba5b68f1e1755c04788ed38007c0b203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d357a054da8bc1e2bc723e34c0e1c5d') in 0.035467 seconds 
+  Import took 0.038283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Zeldisaac/Character_SpriteSheet.png
+  artifactKey: Guid(838920a3d4179f647a2d3c3ad0a42881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Character_SpriteSheet.png using Guid(838920a3d4179f647a2d3c3ad0a42881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0752dfbb3df5f4cfdb903ad763cd1cc8') in 0.008438 seconds 
+  Import took 0.010871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Zeldisaac/Character_SpriteSheet_Block_hurt.png
+  artifactKey: Guid(9e738eb4f8b6c05479dd77a7d6b7da1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Character_SpriteSheet_Block_hurt.png using Guid(9e738eb4f8b6c05479dd77a7d6b7da1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6a48a27599554e452cde4a527bceb1') in 0.006870 seconds 
+  Import took 0.009190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Zeldisaac/Character.png
+  artifactKey: Guid(78f35d2309a435c4ba3d7362870606f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Character.png using Guid(78f35d2309a435c4ba3d7362870606f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd5476f0887c18b03e8b5defcf1932f') in 0.009296 seconds 
+  Import took 0.012027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Zeldisaac/Chest_SpriteSheet.png
+  artifactKey: Guid(3c89fb57ca48ff54ebecb134c86d1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Chest_SpriteSheet.png using Guid(3c89fb57ca48ff54ebecb134c86d1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc344d365c7c08229027310bf3a8735') in 0.016640 seconds 
+  Import took 0.019283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.638945 seconds.
+  path: Assets/Zeldisaac/PetitePieceShadow_SpriteSheet.png
+  artifactKey: Guid(433b750cd58144a4880c8bee24ec10ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/PetitePieceShadow_SpriteSheet.png using Guid(433b750cd58144a4880c8bee24ec10ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3eafff978576176f8e74e38bd61c5a4') in 0.009793 seconds 
+  Import took 0.013085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Zeldisaac/Piece.gif
+  artifactKey: Guid(6575eb690c0eed34db4ed0324815aa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Piece.gif using Guid(6575eb690c0eed34db4ed0324815aa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c035d650874c354793b88cdbd313cb5') in 0.012927 seconds 
+  Import took 0.015710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Zeldisaac/Piece_HUD_SpriteSheet.png
+  artifactKey: Guid(f22f2eea0480fe2478c870ef9416be6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Piece_HUD_SpriteSheet.png using Guid(f22f2eea0480fe2478c870ef9416be6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa42ff43e961c3f6652b2cd8c559473') in 0.014209 seconds 
+  Import took 0.016697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Zeldisaac/PieceHUD.png
+  artifactKey: Guid(f192098b5ededb84b81edfd103c90604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/PieceHUD.png using Guid(f192098b5ededb84b81edfd103c90604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b447e9d581eb88536d1b5cfc92a3bb2') in 0.008285 seconds 
+  Import took 0.011044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002848 seconds.
+  path: Assets/Zeldisaac/Portrait.png
+  artifactKey: Guid(516a3efe1b985744d9b29fd670568e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Portrait.png using Guid(516a3efe1b985744d9b29fd670568e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bb240f8131c76c8b034347da795b09') in 0.009142 seconds 
+  Import took 0.012119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Zeldisaac/Squelette.gif
+  artifactKey: Guid(4a1a8765e504d754e868f0bcf6deb975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Squelette.gif using Guid(4a1a8765e504d754e868f0bcf6deb975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75b3cca34aef747e5e2f0209edb6bfd') in 0.009791 seconds 
+  Import took 0.012493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.194488 seconds.
+  path: Assets/Zeldisaac/Squelette_SpriteSheet.png
+  artifactKey: Guid(8567b58835791814ea330583938bc1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Squelette_SpriteSheet.png using Guid(8567b58835791814ea330583938bc1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8457801d1cfb9292fb881bcadff82565') in 0.007471 seconds 
+  Import took 0.010429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Zeldisaac/Squelette_SpriteSheet_Hurt.png
+  artifactKey: Guid(8c80c141c671e37459a4b256a5d45f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Squelette_SpriteSheet_Hurt.png using Guid(8c80c141c671e37459a4b256a5d45f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ce14434c856fd2d3b526b0cb9d697b') in 0.007992 seconds 
+  Import took 0.010502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001077 seconds.
+  path: Assets/Zeldisaac/SqueletteDeath&Block.png
+  artifactKey: Guid(659e6338977056842aef3c58c2fdd451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/SqueletteDeath&Block.png using Guid(659e6338977056842aef3c58c2fdd451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f148fbb355e87075064f960905bfd62') in 0.009761 seconds 
+  Import took 0.012917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Zeldisaac/Tileset.png
+  artifactKey: Guid(0471f3d4c137b8941b1d1afa5d2d9138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Tileset.png using Guid(0471f3d4c137b8941b1d1afa5d2d9138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031e753344450ba3f75206c12a536204') in 0.009684 seconds 
+  Import took 0.012872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Zeldisaac/WorldItemsSpriteSheet.png
+  artifactKey: Guid(4d366293697bdf94da531cbc013527b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/WorldItemsSpriteSheet.png using Guid(4d366293697bdf94da531cbc013527b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7f549a192e7e36ccf94680686e4949') in 0.009287 seconds 
+  Import took 0.011852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Zeldisaac/Validation.ogg
+  artifactKey: Guid(e7b1b6a1697daaa4a8ec9a68ec6d4f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Validation.ogg using Guid(e7b1b6a1697daaa4a8ec9a68ec6d4f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bafbf428686191e09d097dd01c5931') in 0.012468 seconds 
+  Import took 0.015316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.173891 seconds.
+  path: Assets/Zeldisaac/Character_SpriteSheet.png
+  artifactKey: Guid(838920a3d4179f647a2d3c3ad0a42881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Character_SpriteSheet.png using Guid(838920a3d4179f647a2d3c3ad0a42881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b5b396f889208b820374b3ac756611') in 0.009396 seconds 
+  Import took 0.012197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.267295 seconds.
+  path: Assets/Zeldisaac/Character_SpriteSheet.png
+  artifactKey: Guid(838920a3d4179f647a2d3c3ad0a42881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Character_SpriteSheet.png using Guid(838920a3d4179f647a2d3c3ad0a42881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f785174a7e520863e626a2e805e0c425') in 0.091818 seconds 
+  Import took 0.094780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.934978 seconds.
+  path: Assets/Zeldisaac/Character_SpriteSheet_Block_hurt.png
+  artifactKey: Guid(9e738eb4f8b6c05479dd77a7d6b7da1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Character_SpriteSheet_Block_hurt.png using Guid(9e738eb4f8b6c05479dd77a7d6b7da1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca75019cdb74e7190fe579421451947') in 0.006122 seconds 
+  Import took 0.008840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.354122 seconds.
+  path: Assets/Zeldisaac/Character_SpriteSheet_Block_hurt.png
+  artifactKey: Guid(9e738eb4f8b6c05479dd77a7d6b7da1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Character_SpriteSheet_Block_hurt.png using Guid(9e738eb4f8b6c05479dd77a7d6b7da1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce2955fed5ffa37e7133cc0761b934d') in 0.094878 seconds 
+  Import took 0.097711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.708712 seconds.
+  path: Assets/Zeldisaac/Chest_SpriteSheet.png
+  artifactKey: Guid(3c89fb57ca48ff54ebecb134c86d1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Chest_SpriteSheet.png using Guid(3c89fb57ca48ff54ebecb134c86d1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263751b22140a9ec4399cde3066c6bec') in 0.005794 seconds 
+  Import took 0.010048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.747783 seconds.
+  path: Assets/Zeldisaac/Chest_SpriteSheet.png
+  artifactKey: Guid(3c89fb57ca48ff54ebecb134c86d1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Chest_SpriteSheet.png using Guid(3c89fb57ca48ff54ebecb134c86d1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819a00975312156d4647113b14dc67c7') in 0.028900 seconds 
+  Import took 0.031618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.078177 seconds.
+  path: Assets/Zeldisaac/Door.png
+  artifactKey: Guid(50e492b5d29bdd8439ae53f9b7eb7484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Door.png using Guid(50e492b5d29bdd8439ae53f9b7eb7484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e5d426e47c488140fc114e9fe4ede7') in 0.005790 seconds 
+  Import took 0.008598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.152181 seconds.
+  path: Assets/Zeldisaac/DoorGrid.png
+  artifactKey: Guid(6c3be450aa1c335459c8a3180232f4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/DoorGrid.png using Guid(6c3be450aa1c335459c8a3180232f4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475ab30a7be4659259d6add893dea42f') in 0.006627 seconds 
+  Import took 0.009364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.458239 seconds.
+  path: Assets/Zeldisaac/Jar_SpriteSheet.png
+  artifactKey: Guid(53cbe1f200c1abd48891a10177ff3a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Jar_SpriteSheet.png using Guid(53cbe1f200c1abd48891a10177ff3a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078521fbc308fd1bf69671adba43dfe4') in 0.007713 seconds 
+  Import took 0.010670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.346341 seconds.
+  path: Assets/Zeldisaac/Jar_SpriteSheet.png
+  artifactKey: Guid(53cbe1f200c1abd48891a10177ff3a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Jar_SpriteSheet.png using Guid(53cbe1f200c1abd48891a10177ff3a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c285aeeb9983708eb07a8687e90a3e') in 0.037054 seconds 
+  Import took 0.041209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.448353 seconds.
+  path: Assets/Zeldisaac/PetitePiece_SpriteSheet.png
+  artifactKey: Guid(98295261cc169594d8d8c7551f4f6d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/PetitePiece_SpriteSheet.png using Guid(98295261cc169594d8d8c7551f4f6d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bd88b6952bfd5a48d5c69ca0500957') in 0.008176 seconds 
+  Import took 0.011052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.490126 seconds.
+  path: Assets/Zeldisaac/PetitePiece_SpriteSheet.png
+  artifactKey: Guid(98295261cc169594d8d8c7551f4f6d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/PetitePiece_SpriteSheet.png using Guid(98295261cc169594d8d8c7551f4f6d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2dbc237b761980cc0091dd9dd1cbca') in 0.025164 seconds 
+  Import took 0.028088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.628645 seconds.
+  path: Assets/Zeldisaac/PetitePieceShadow_SpriteSheet.png
+  artifactKey: Guid(433b750cd58144a4880c8bee24ec10ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/PetitePieceShadow_SpriteSheet.png using Guid(433b750cd58144a4880c8bee24ec10ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45be2ca96e2ab1e9693d14b14f6acb78') in 0.006222 seconds 
+  Import took 0.008981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.530483 seconds.
+  path: Assets/Zeldisaac/PetitePieceShadow_SpriteSheet.png
+  artifactKey: Guid(433b750cd58144a4880c8bee24ec10ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/PetitePieceShadow_SpriteSheet.png using Guid(433b750cd58144a4880c8bee24ec10ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15ea5e7272d9889d0acf39a91a37c97') in 0.036274 seconds 
+  Import took 0.039069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.495852 seconds.
+  path: Assets/Zeldisaac/Piece_HUD_SpriteSheet.png
+  artifactKey: Guid(f22f2eea0480fe2478c870ef9416be6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Piece_HUD_SpriteSheet.png using Guid(f22f2eea0480fe2478c870ef9416be6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5125151f42a8ec621c5beaad1a1c667') in 0.006808 seconds 
+  Import took 0.009676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.987713 seconds.
+  path: Assets/Zeldisaac/Piece_HUD_SpriteSheet.png
+  artifactKey: Guid(f22f2eea0480fe2478c870ef9416be6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Piece_HUD_SpriteSheet.png using Guid(f22f2eea0480fe2478c870ef9416be6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4375177be97208dd9e81f900392c3fc7') in 0.036030 seconds 
+  Import took 0.038792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.449928 seconds.
+  path: Assets/Zeldisaac/Squelette_SpriteSheet.png
+  artifactKey: Guid(8567b58835791814ea330583938bc1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Squelette_SpriteSheet.png using Guid(8567b58835791814ea330583938bc1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee3756b3bc4fb1006041cd9a62ae605') in 0.006161 seconds 
+  Import took 0.008892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.638764 seconds.
+  path: Assets/Zeldisaac/Squelette_SpriteSheet.png
+  artifactKey: Guid(8567b58835791814ea330583938bc1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Squelette_SpriteSheet.png using Guid(8567b58835791814ea330583938bc1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c217e2ee3ad81980641c18140d207d30') in 0.116352 seconds 
+  Import took 0.119213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.360957 seconds.
+  path: Assets/Zeldisaac/Squelette_SpriteSheet_Hurt.png
+  artifactKey: Guid(8c80c141c671e37459a4b256a5d45f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Squelette_SpriteSheet_Hurt.png using Guid(8c80c141c671e37459a4b256a5d45f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166f520834009f443dd1360326fc7a6d') in 0.006363 seconds 
+  Import took 0.009187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.979134 seconds.
+  path: Assets/Zeldisaac/Squelette_SpriteSheet_Hurt.png
+  artifactKey: Guid(8c80c141c671e37459a4b256a5d45f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/Squelette_SpriteSheet_Hurt.png using Guid(8c80c141c671e37459a4b256a5d45f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e37cd3dfa357efe6e6e016bf93e839') in 0.040067 seconds 
+  Import took 0.043196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.986720 seconds.
+  path: Assets/Zeldisaac/SqueletteDeath&Block.png
+  artifactKey: Guid(659e6338977056842aef3c58c2fdd451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/SqueletteDeath&Block.png using Guid(659e6338977056842aef3c58c2fdd451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480b7ed699868f7e7678fe6a73e640c7') in 0.006305 seconds 
+  Import took 0.009386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.889191 seconds.
+  path: Assets/Zeldisaac/SqueletteDeath&Block.png
+  artifactKey: Guid(659e6338977056842aef3c58c2fdd451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zeldisaac/SqueletteDeath&Block.png using Guid(659e6338977056842aef3c58c2fdd451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15916ae1ff19780dc70e5a3e04320ef2') in 0.123072 seconds 
+  Import took 0.125978 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
