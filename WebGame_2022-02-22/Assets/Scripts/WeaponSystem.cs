@@ -15,6 +15,9 @@ namespace Bane
         [SerializeField, Header("武器資料")]
         private DataWeapon dataWeapon;
 
+        //[SerializeField, Header("武器資料")]
+        private DataWeapon dataWeapon1;
+
         /// <summary>
         /// 計時器
         /// </summary>
@@ -36,7 +39,15 @@ namespace Bane
             for(int i = 0; i < dataWeapon.v3SpawnPoint.Length; i++)
             {
                 Gizmos.DrawSphere(transform.position + dataWeapon.v3SpawnPoint[i], 0.1f);
-            }            
+            }
+            
+            Gizmos.color = new Color(1, 0, 0, 0.5f);
+           
+            for (int i = 0; i < dataWeapon1.v3SpawnPoint.Length; i++)
+            {
+                Gizmos.DrawSphere(transform.position + dataWeapon1.v3SpawnPoint[i], 0.1f);
+            }
+
         }
 
         private void Start()
@@ -50,6 +61,7 @@ namespace Bane
         private void Update()
         {
             SpawnWeapon();
+            SpawnWeapon1();
         }
 
         /// <summary>
@@ -83,6 +95,33 @@ namespace Bane
                 GameObject temp = Instantiate(dataWeapon.goWeapon, pos, Quaternion.identity);
                 // 暫存武器.取得元件<剛體>().添加動力(方向 * 速度)
                 temp.GetComponent<Rigidbody2D>().AddForce(dataWeapon.v3Direction * dataWeapon.speed);
+
+                timer = 0;
+
+            }
+        }
+        private void SpawnWeapon1()
+        {
+            // Time.deltaTime 一個影格的時間
+            timer += Time.deltaTime;
+
+            //print("經過的時間" + timer);
+
+            // 如果 計時器 大於等於 間隔時間 就生成 武器
+
+            if (timer >= dataWeapon1.interval)
+            {
+                // print("生成武器");
+                // 隨機值 = 隨機,範圍(最小值，最大值) - 整數不包含最大值
+                int random = Random.Range(0, dataWeapon1.v3SpawnPoint.Length);
+                // 座標
+                Vector3 pos = transform.position + dataWeapon1.v3SpawnPoint[random];
+                // Quaternion 四位元:紀錄角度資訊類型
+                // Quaternion.identity 零度角(0,0,0)
+                // 暫存武器 = 生成(物件，座標，角度)
+                GameObject temp = Instantiate(dataWeapon1.goWeapon, pos, Quaternion.identity);
+                // 暫存武器.取得元件<剛體>().添加動力(方向 * 速度)
+                temp.GetComponent<Rigidbody2D>().AddForce(dataWeapon1.v3Direction * dataWeapon1.speed);
 
                 timer = 0;
 

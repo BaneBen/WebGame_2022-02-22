@@ -41,4 +41,26 @@ namespace Bane
         [Header("飛行方向")]
         public Vector3 v3Direction;
     }
+    public class DataWeapon1 : ScriptableObject
+    {
+        [Header("飛行速度"), Range(0, 5000)]
+        public float speed = 350;
+        [Header("攻擊力"), Range(0, 100)]
+        public float attack = 7;
+        [Header("起始數量"), Range(1, 10)]
+        public float countStart = 3;
+        [Header("最大數量"), Range(1, 20)]
+        public float countMax = 6;
+        [Header("間隔時間"), Range(0, 5)]
+        public float interval = 1.5f;
+
+        // 資料類型[] 陣列 - 資料結構
+        // 作用：儲存多筆相同類型的資料
+        [Header("生成位置")]
+        public Vector3[] v3SpawnPoint;
+        [Header("武器預置物")]
+        public GameObject goWeapon;
+        [Header("飛行方向")]
+        public Vector3 v3Direction;
+    }
 }
