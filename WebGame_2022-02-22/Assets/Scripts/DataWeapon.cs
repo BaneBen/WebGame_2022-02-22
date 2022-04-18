@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Bane
+namespace BANE
 {
     /// <summary>
     /// ªZ¾¹¸ê®Æ

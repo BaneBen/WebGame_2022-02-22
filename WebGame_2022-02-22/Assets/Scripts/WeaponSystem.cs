@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Bane
+namespace BANE
 {
     ///<summary>
     /// 武器系統
@@ -84,6 +84,7 @@ namespace Bane
 
             if(timer >= dataWeapon.interval)
             {
+                TopDownController.ani.Play("骷髏攻擊");
                 // print("生成武器");
                 // 隨機值 = 隨機,範圍(最小值，最大值) - 整數不包含最大值
                 int random = Random.Range(0, dataWeapon.v3SpawnPoint.Length);
@@ -95,6 +96,7 @@ namespace Bane
                 GameObject temp = Instantiate(dataWeapon.goWeapon, pos, Quaternion.identity);
                 // 暫存武器.取得元件<剛體>().添加動力(方向 * 速度)
                 temp.GetComponent<Rigidbody2D>().AddForce(dataWeapon.v3Direction * dataWeapon.speed);
+                Destroy(temp, 5f);
 
                 timer = 0;
 
