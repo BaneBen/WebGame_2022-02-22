@@ -41,12 +41,12 @@ namespace BANE
                 Gizmos.DrawSphere(transform.position + dataWeapon.v3SpawnPoint[i], 0.1f);
             }
             
-            Gizmos.color = new Color(1, 0, 0, 0.5f);
+            //Gizmos.color = new Color(1, 0, 0, 0.5f);
            
-            for (int i = 0; i < dataWeapon1.v3SpawnPoint.Length; i++)
-            {
-                Gizmos.DrawSphere(transform.position + dataWeapon1.v3SpawnPoint[i], 0.1f);
-            }
+            //for (int i = 0; i < dataWeapon1.v3SpawnPoint.Length; i++)
+           //{
+           //     Gizmos.DrawSphere(transform.position + dataWeapon1.v3SpawnPoint[i], 0.1f);
+           //}
 
         }
 
