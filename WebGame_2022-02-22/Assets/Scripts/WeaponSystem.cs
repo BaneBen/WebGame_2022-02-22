@@ -96,9 +96,12 @@ namespace BANE
                 GameObject temp = Instantiate(dataWeapon.goWeapon, pos, Quaternion.identity);
                 // 暫存武器.取得元件<剛體>().添加動力(方向 * 速度)
                 temp.GetComponent<Rigidbody2D>().AddForce(dataWeapon.v3Direction * dataWeapon.speed);
-                Destroy(temp, 5f);
-
+                               
                 timer = 0;
+                // 刪除物件(要刪除的物件，延遲刪除時間)
+                Destroy(temp, 5f);
+                // 取得武器.攻擊力 = 武器資料.攻擊力
+                temp.GetComponent<Weapon>().attack = dataWeapon.attack;
 
             }
         }

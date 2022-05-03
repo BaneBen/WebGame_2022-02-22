@@ -20,6 +20,8 @@ namespace BANE
         public float expDropProbability = 0.8f;
         [Header("±¼¸¨¸gÅç­È±¼¸¨")]
         public TypeExp typeExp;
+        [Header("°±¤î¶ZÂ÷"), Range(0,10)]
+        public float stopDistance = 1.5f;
     }
     // enum ¦CÁ|¡G¤U©Ô¦¡¿ï³æ
     /// <summary>
